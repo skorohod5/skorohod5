@@ -47,7 +47,6 @@
           <th><center>FP2</center></th>
           <th><center>FP3</center></th>
           <th><center>Qualifying</center></th>
-          <th><center>Race</center></th>
         </tr>      
         <tr>
           <td><ol>
@@ -98,18 +97,7 @@
             <li>Kevin Magnussen	(1:55.103)</li>
             <li>Yuki Tsunoda	(1:55.314)</li>
           </ol></td>
-          <td><ol>
-            <li>-</li>
-            <li>-</li>
-            <li>-</li>
-            <li>-</li>
-            <li>-</li>
-            <li>-</li>
-            <li>-</li>
-            <li>-</li>
-            <li>-</li>
-            <li>-</li>
-          </ol></td>
+          <td></td>
         </tr>
       </table>
       <hr>
