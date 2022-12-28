@@ -2,6 +2,9 @@
 <html>
   <head>
     <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,
+	initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Singapore gp</title>
 	<link rel="stylesheet" href="style.css">
   </head>
@@ -10,6 +13,9 @@
       <img src="f1-logo.png" alt="logo" class="logo">
 	  <nav>
 	    <ul class="nav_links_header">
+	      <li><?php
+				echo date('l \t\h\e jS');
+		  	?></li>
           <li><a href="#schedule">Schedule</a></li>
           <li><a href="#track stats">Track stats</a></li>
           <li><a href="#track info">Track info</a></li>
@@ -18,6 +24,25 @@
         </ul>
 	  </nav>
 	</header>
+	<div id="sidebar">
+		<div class="toggle-btn" onclick="openmenu()">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+		<ul>
+			<li>More racing</li>
+			<li><a href="https://www.formula1.com/en.html">Formula 1</a></li>
+			<li><a href="https://www.fiaformula2.com/">Formula 2</a></li>
+			<li><a href="https://www.fiaformula3.com/">Formula 3</a></li>
+		</ul>
+		</div>
+	
+	<script>
+		function openmenu() {
+			document.getElementById("sidebar").classList.toggle('active');
+		}
+	</script>
     <img src="f1.jpg" width="100%"/>
     <br><center><b>Get up to speed with everything you need to know about the 2022 Singapore Grand Prix, 
     which takes place over 61 laps of the 5.063-kilometre Marina Bay Street Circuit on Sunday, October 2.</b></center>
